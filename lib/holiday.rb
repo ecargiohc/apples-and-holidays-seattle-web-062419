@@ -78,6 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
       if supply.any? == "BBQ"
       puts holiday
   end
+end
   # return holiday
 end
 
