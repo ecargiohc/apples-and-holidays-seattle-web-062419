@@ -78,6 +78,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday, supply| 
       if supply.any? {|word| word == "BBQ"}
       holiday_names << holiday
+    end
   end
 end
   # return holiday
