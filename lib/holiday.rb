@@ -79,9 +79,9 @@ def all_holidays_with_bbq(holiday_hash)
       if supply.any? {|word| word == "BBQ"}
       holiday_names << holiday
     end
-    return holiday_names
   end
 end
+return holiday_names
 end
 
 
